@@ -1,3 +1,4 @@
+
 import pytest
 from all_questions import *
 import pickle
@@ -70,7 +71,7 @@ def question3():
     answers['Agree?'] = 'Disagree'
 
     # type: explain_string
-    answers['Explain'] = 'The classifiers he's employing, akin to flipping a coin 1000 times, each have an error rate of 0.5 theoretically. Given their nature of random guessing, employing ensemble techniques won't likely yield favorable outcomes. This stems from the inability of these base classifiers to converge towards any specific class, even with boosting or bagging incorporated.'
+    answers['Explain'] = "The classifiers he's employing, akin to flipping a coin 1000 times, each have an error rate of 0.5 theoretically. Given their nature of random guessing, employing ensemble techniques won't likely yield favorable outcomes. This stems from the inability of these base classifiers to converge towards any specific class, even with boosting or bagging incorporated."
  
     return answers
 
