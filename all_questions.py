@@ -167,8 +167,7 @@ def question7():
     answers['(iii) preferred classifier?'] = 'C3'
 
     # type: explain_string
-    answers['(iii) best classifier, explain'] = '
-C3 represents an improved version of C1. It achieves higher precision (superior even to C2), F-1 measure, and Recall, while maintaining the low FPR observed in C1. Although its metrics may not reach the level of C2, the trade-off of a slightly higher FPR is justifiable in my view.' 
+    answers['(iii) best classifier, explain'] = 'C3 represents an improved version of C1. It achieves higher precision (superior even to C2), F-1 measure, and Recall, while maintaining the low FPR observed in C1. Although its metrics may not reach the level of C2, the trade-off of a slightly higher FPR is justifiable in my view.' 
     return answers
 
 
