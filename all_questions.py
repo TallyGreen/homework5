@@ -39,7 +39,7 @@ def question2():
     answers['(a) D'] = True
 
     # type: bool
-    answers['(b) A'] = "True"
+    answers['(b) A'] = True
 
     # type: False
     answers['(b) B'] = False
