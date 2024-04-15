@@ -1,4 +1,3 @@
-
 import pytest
 from all_questions import *
 import pickle
@@ -219,8 +218,7 @@ def question9():
     answers['(i) worst metric?'] = 'accuracy'
 
     # type: explain_string
-    answers['(ii) Explain your choices of best and worst metrics'] = '
-F-measure emerges as the preferred metric among the three, as it integrates precision and recall into a single statistic. In scenarios with imbalanced classes, accuracy can be significantly biased, as it merely considers the total number of mistakes without discerning between false positives and false negatives, failing to address the discrepancy between them in context.'
+    answers['(ii) Explain your choices of best and worst metrics'] = 'F-measure emerges as the preferred metric among the three, as it integrates precision and recall into a single statistic. In scenarios with imbalanced classes, accuracy can be significantly biased, as it merely considers the total number of mistakes without discerning between false positives and false negatives, failing to address the discrepancy between them in context.'
     return answers
 
 
